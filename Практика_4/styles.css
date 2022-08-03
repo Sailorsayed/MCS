@@ -1,0 +1,85 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+body{
+    background-image: url(../Практика_4/images/pexels-matthew-montrone-1179229.jpg);
+}
+body{
+    font-family: 'Cormorant SC', serif;
+    border: 5px 5px 5px 5px solid #403C01;
+}
+.top{
+    font-size: 50px;
+    color: #403C01;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 20px 10px 30px 10px;
+    text-align: center;
+    background-color: #A69F44;
+    border: 5px solid #403C01;
+    opacity: 0.9;
+}
+.container{
+    display:flex;
+    font-size: 26px;
+    color: #0c0c00;
+    border: 0px 5px 5px 5px solid #403C01;
+    justify-content: space-evenly;
+}
+
+.makita{
+    width: 520px;
+    padding: 10px 10px 10px 28px;
+    margin: 20px;
+    text-align: justify;
+    background-color: azure;
+    opacity: 0.7;
+    font-weight: 400;
+    border: 5px solid #403C01;
+}
+
+.stihl{
+    width: 520px;
+    padding: 10px 10px 10px 28px;
+    margin: 20px;
+    background-color: azure;
+    opacity: 0.7;
+    font-weight: 400;
+    border: 5px solid #403C01;
+}
+
+.husqvarna{
+    width: 520px;
+    padding: 10px 10px 10px 28px;
+    margin: 20px;
+    background-color: azure;
+    opacity: 0.7;
+    font-weight: 400;
+    border: 5px solid #403C01;
+}
+h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 10px;
+}
+.buttom{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    color: #A69F44;
+    padding: 30px;
+    background-color: #403C01;
+    align-items: center;
+    opacity: 0.9;
+}
