@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 10;
+    border: 0;
+}
+body{
+    font-family:'Abril Fatface', cursive;
+}
+.top {
+display:flex;
+font-size: 100px;
+letter-spacing: 2px;
+color: #385161;
+border: 1px solid none;
+padding: 10px 10px 40px 40px;
+height: 100px;
+background: linear-gradient(#BED4E9,#839CB2);
+justify-content:space-between;
+letter-spacing: 2px;
+}
+.mcs{
+font-size: 25px;
+font-family: 'Fjalla One', sans-serif;
+}
+.image{
+    height: 1000px;
+    background-image: url(../Практика_3/images/pexels-arthouse-studio-4641022.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.links{
+display: flex;
+letter-spacing: 2px;
+font-size: 28px;
+border: 1px solid none;
+padding: 10px 10px 10px 10px;
+height: 30px;
+justify-content: center;
+background-color: #51768C;
+
+}
+h2{
+    padding: 10px 10px 30px 10px;
+}
+.content{
+/* font-family: 'Fjalla One', sans-serif; */
+text-transform: uppercase;
+letter-spacing: 1px;
+font-size: 30px;
+color: #385161;
+border: 1px solid none;
+padding: 10px 10px 20px 50px;
+background:linear-gradient(#BED4E9,#8199B3)
+
+}
+.footer{
+    display: flex;
+    color: #BED4E9;
+    font-size: 30px;
+    background-color: #012E40;
+    padding: 10px 100px 20px 100px; 
+    height: 200px;
+    background-image: url(../Практика_3/images/telegram.svg), url(../Практика_3/images/GitHub\ Desktop.png);
+    background-repeat: no-repeat;
+    background-position: 1.5%, 91.5%;
+    background-size: 2%;
+    justify-content: space-between;
+}
+.discord{
+    align-self: center;
+}
+.data{
+    align-self:flex-end;
+}
+.git{
+    align-self: center;
+}
+a:visited{
+color: #BED4E9;
+}
