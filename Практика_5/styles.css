@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 20px;
+    display:flex;
+	position: fixed;
+	width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+	z-index: 1;
+}
+.logo{
+    margin-bottom: 20px;
+}
+.menu li{
+    display: inline;
+    margin-left: 15px;
+}
+  .heroblock{
+	height: 900px;
+	background-image: url(../Практика_5/images/sheep.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+  }
+  .travel{
+	height: 700px;
+	background-image: url(../Практика_5/images/Путешествуй.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: 1000px 580x;
+  }
+
+  .walk{
+    height: 700px;
+    background-image: url(../Практика_5/images/chukcha-odezhda-1024x705.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 1100px 600px;
+  }  
+  .ride{
+	height: 700px;
+	background-image: url(../Практика_5/images/катай.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: 1100px 700px;
+  }
+  .text{
+	color: black;
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	top: 120px;
+	left: 580px;
+	font-family: 'Cormorant SC', serif;
+  }
+  .text1{
+	color: white;
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	bottom: 250px;
+	left: 550px;
+	font-family: 'Cormorant SC', serif;
+  }
+  
+  h2{
+	font-size: 20px;
+	text-align: center;
+  }
+  .bottom{
+	padding: 200px 50px 40px 50px;
+	display: flex;
+	position: relative;
+	background-color: #B4BD8E;
+	justify-content: space-around;
+	line-height: 30px;
+  }
+  .logobottom{
+	position: absolute;
+	top:30px;
+	right: 880px;
+  }
+  .bottom ul{
+	list-style-type: none;
+  }
+  .bottom h2{
+	text-align: start;
+  }
