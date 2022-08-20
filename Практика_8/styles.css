@@ -1,0 +1,199 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.header{
+    display: flex;
+    background-color: #06BF9D;
+    justify-content: space-between;
+}
+.gesh{
+    padding: 0px 0px 20px 50px;
+    display: flex;
+}
+.gesh p{
+    font-size: 30px;
+    padding-left: 100px;
+    font-family: 'Pacifico', cursive;
+    position: absolute;
+    top:150px;
+    left:50px;
+    word-spacing: 60px;
+}
+h1{
+    font-family: 'Rouge Script', cursive;
+    font-size: 180px;
+    font-weight:bold;
+    position: relative;
+}
+.menu{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+h3{
+    margin: 0px 25px 0px 25px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+}
+.container{
+    background-image: url(../Практика_8/images/Winter\ Sport\ Seamless\ Stock\ Photos\,\ Pictures\ &\ Royalty-Free\ Images.png);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer{
+    display: flex;
+    padding: 50px;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #427F8C;
+    color: #F2F2F0;
+}
+.footer h2{
+    font-size: 40px;
+}
+.block_1 p{
+    font-size: 10px;
+}
+form{
+    margin-left: 50px;
+    width:450px;
+    height:650px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px grey;
+    background-color: #F2B544;
+    opacity: .8;
+    border-radius: 20px;
+    font-family: 'Amatic SC', cursive;
+}
+form label{
+    font-size: 30px;
+    font-weight: 600;
+}
+.legacy{
+    border:none;
+    padding-left: 15px;
+}
+.legacy label{
+    font-size: 20px;
+}
+legend{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+form h2{ 
+    font-size: 50px;
+    margin: 0;
+    text-transform:uppercase;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #F26835;
+    text-align: center;
+}
+.group{
+     margin:10px;
+     padding: 5px;
+}
+.group input{
+    margin-top: 10px;
+    height: 30px;
+    width: 400px;
+    border: none;
+}
+button{
+    cursor: pointer;
+    padding:10px;
+    height: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    font-weight: 600;
+}
+.review{
+    margin: 10px 0px 0px 15px;
+    width:300px;
+    resize: none;
+}
+.review label{
+    margin-right: 200px;
+}
+
+@media only screen and (max-width:1460px){
+     .header h3{
+        font-size: 30px;
+     }
+}
+@media only screen and (max-width:1300px){
+    .header h1{
+       font-size: 160px;
+    }
+}
+@media only screen and (max-width:1300px){
+    .header h3{
+       font-size: 25px;
+    }
+}
+@media only screen and (max-width:1300px){
+    .header p{
+       font-size: 25px;
+       top: 130px;
+}
+}
+@media only screen and (max-width:1162px){
+    .header h1{
+       font-size: 110px;
+    }
+}
+@media only screen and (max-width:1162px){
+    .header h3{
+       font-size: 20px;
+       margin: 0px 15px 0px 15px;
+    }
+}
+@media only screen and (max-width:1162px){
+    .header p{
+       font-size: 20px;
+       padding-left: 55px;
+       top: 90px;
+       word-spacing: 40px;
+    }
+}
+@media only screen and (max-width:844px){
+    .header h1{
+       font-size: 80px;
+    }
+}
+@media only screen and (max-width:844px){
+    .header h3{
+       font-size: 15px;
+       margin: 0px 10px 0px 10px;
+    }
+}
+@media only screen and (max-width:844px){
+    .header p{
+       font-size: 15px;
+       padding-left: 40px;
+       top: 60px;
+       word-spacing: 30px;
+    }
+}
+
+@media only screen and (max-width:626px){
+    .header h3{
+       font-size: 10px;
+       margin: 0px 8px 0px 8px;
+    }
+}
+
+@media only screen and (max-width:546px){
+    form{
+        margin: 0 auto;
+    }
+}

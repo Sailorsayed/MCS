@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>sheregesh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <div class="header">
+        <div class="gesh">
+            <h1>Sheregesh</h1>
+            <p>горнолыжный курорт</p>
+        </div>
+        <div class="menu">
+            <h3>ТРАНСФЕР</h3>
+            <h3>ГОСТИННИЦЫ</h3>
+            <h3>НОВОСТИ</h3>
+            <h3>ВОПРОСЫ И ОТВЕТЫ</h3>
+            <h3>ТРАССЫ</h3>
+        </div>
+    </div>
+    <div class="container">
+      <form action="https://formspree.io/f/xeqdqbvb" method="POST" class="client_form">
+        <h2>Отзыв об отдыхе</h2>
+        <div class="group">
+            <label for="username">Ваше имя</label>
+            <input id="username"
+             name="username"
+             type="text"/>
+        </div>
+        <div class="group">
+            <label for="telephone">Номер телефона</label>
+            <input id="telephone" 
+             name="telephone" 
+             type="phone"/>
+        </div>
+        <div class="group">
+            <label for="mail">Электронная почта</label>
+            <input id="mail"
+             name="mail"
+             type="mail"
+            placeholder="rider@gmail.com"/>
+        </div>
+        <fieldset class="legacy">
+            <legend>КАК ВЫ О НАС УЗНАЛИ</legend>
+            <input id="type-1"
+              name="type"
+              type="radio"
+              value="friends"/>
+              <label for="type-1" class="radio-label">От друзей</label>
+               <input id="type-2"
+                name="type"
+                type="radio"
+                value="sochial-media"
+                checked/>
+                <label for="type-2" class="radio-label">Социальные сети</label>
+                  <input id="type-3"
+                  name="type"
+                  type="radio"
+                  value="transport advertising"/>
+                  <label for="type-3" class="radio-label">Реклама в транспорте</label>
+                  <input id="type-4"
+                  name="type"
+                  type="radio"
+                  value="other"/>
+                  <label for="type-4" class="radio-label">Другое</label>
+             </fieldset>
+             <div class="review">
+               <label for="review">Отзыв</label>
+               <textarea id="review" name="review"></textarea>
+               <div class="instructions">Оставьте отзыв об отдыхе</div>
+             </div>
+               <div class="group">
+                <center><button>Отправить</button></center>
+             </div>
+      </form>
+    </div>
+        <div class="footer">
+           <div class="block_1">
+            <h2>ШЕРЕГЕШ</h2>
+            <p>туристско-информационный центр</p>
+            <p>2009-2022</p>
+           </div> 
+           <div class="block_2">
+            <p>8(913) 305 0000</p>   
+            <p>8(933) 300 5000</p>
+            <p>8(384) 333 9333</p>
+           </div>
+        </div>
+  </body>
+  </html>
